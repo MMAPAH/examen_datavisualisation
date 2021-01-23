@@ -5,20 +5,8 @@
 
 Les données avec la population au fur des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter).
 [données_brutes](Bureau/données_brutes)
-Nous avons décide de garder uniquement la partie qui nous intéresse: arrondissement, année, population. C'était assez facile de nettoyer les données, donc nous n'avons pas utilisé d'outils particuliers. Ensuite, avec ces trois informations, nous avons décidé de 
-
-<iframe src="https://data.opendatasoft.com/explore/embed/dataset/quartier_paris@parisdata/table/?refine.c_ar=20&sort=-c_ar&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InF1YXJ0aWVyX3BhcmlzQHBhcmlzZGF0YSIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibl9zcV9xdSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiMxNDJFN0IifV0sInhBeGlzIjoibF9xdSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&location=13,48.86251,2.39674&basemap=jawg.streets&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
-
-(2 graphique)
-
-https://data.opendatasoft.com/explore/dataset/quartier_paris%40parisdata/information/?refine.c_ar=20&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InF1YXJ0aWVyX3BhcmlzQHBhcmlzZGF0YSIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibl9zcV9xdSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiMxNDJFN0IifV0sInhBeGlzIjoibF9xdSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&location=13,48.86251,2.39674&basemap=jawg.streets 
-
-
-Graphique 1
-
-Sur cette page vous trouveriez la datavisualisation de l'évolution des arrondissements de Paris (1970-2015)
+Nous avons décide de garder uniquement la partie qui nous intéresse: arrondissement, année, population. C'était assez facile de nettoyer les données, donc nous n'avons pas utilisé d'outils particuliers. Ensuite, avec ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1970 et 2015.
 
 <div class="flourish-embed flourish-chart" data-src="visualisation/4874798"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
-
-Conclusion:
+Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils des années. Donc, nous nous sommes posées des questions et donc décidé de faire une autre visualisation, cette fois-ci cartographique.
