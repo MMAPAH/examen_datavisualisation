@@ -1,9 +1,8 @@
-# datavisualisation
-Répertoire dedié à l'examen de datavisualisation (Master 2 DEFI)
+# Projet de datavisualisation - Arrondissements de Paris
 
-Origine et traitement des données
+## Origine et traitement des données
 
-Les données avec la population au fur des années ont été trouvées sur https://www.insee.fr/fr/statistiques/4515941#consulter (lien vers les données).Nous avons décide de garder uniquement la partie qui nous intéresse (lien vers les données retravaillé) (1 graphique) 
+Les données avec la population au fur des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter).Nous avons décide de garder uniquement la partie qui nous intéresse (lien vers les données retravaillé) (1 graphique) 
 
 Ensuite sur le site de OpenDataSotf, nous avons trouvé les coordonnées de chaque quartier pour voir l'évolution sur la carte 
 
