@@ -5,9 +5,7 @@
 
 Les données avec la population au fur des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter).
 [données_brutes](Bureau/données_brutes)
-Nous avons décide de garder uniquement la partie qui nous intéresse (lien vers les données retravaillé) (1 graphique) 
-
-Ensuite sur le site de OpenDataSotf, nous avons trouvé les coordonnées de chaque quartier pour voir l'évolution sur la carte 
+Nous avons décide de garder uniquement la partie qui nous intéresse: arrondissement, année, population. C'était assez facile de nettoyer les données, donc nous n'avons pas utilisé d'outils particuliers. Ensuite, avec ces trois informations, nous avons décidé de 
 
 <iframe src="https://data.opendatasoft.com/explore/embed/dataset/quartier_paris@parisdata/table/?refine.c_ar=20&sort=-c_ar&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6InF1YXJ0aWVyX3BhcmlzQHBhcmlzZGF0YSIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoibl9zcV9xdSIsInNjaWVudGlmaWNEaXNwbGF5Ijp0cnVlLCJjb2xvciI6IiMxNDJFN0IifV0sInhBeGlzIjoibF9xdSIsIm1heHBvaW50cyI6NTAsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6IiIsImRpc3BsYXlMZWdlbmQiOnRydWUsImFsaWduTW9udGgiOnRydWV9&location=13,48.86251,2.39674&basemap=jawg.streets&static=false&datasetcard=false" width="400" height="300" frameborder="0"></iframe>
 
