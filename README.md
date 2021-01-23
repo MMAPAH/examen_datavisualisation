@@ -23,5 +23,4 @@ Sur cette page vous trouveriez la datavisualisation de l'évolution des arrondis
 <div class="flourish-embed flourish-chart" data-src="visualisation/4874798"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
 
 
-
 Conclusion:
