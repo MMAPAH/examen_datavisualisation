@@ -1,5 +1,4 @@
-# Projet de datavisualisation
-# Arrondissements de Paris
+# Projet de datavisualisation - Arrondissements de Paris
 
 ## Origine et traitement des données
 
