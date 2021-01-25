@@ -1,9 +1,12 @@
+# Projet de datavisualisation - Arrondissements de Paris
+[districtsOfParis](https://www.google.com/url?sa=i&url=http%3A%2F%2Fchampagnedarling.com%2F2017%2F08%2Fparis-travel-guide%2Fparis-arondissements%2F&psig=AOvVaw0HOjfzhsWC3AYPscoWS8vP&ust=1611682905251000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJCO6ffQt-4CFQAAAAAdAAAAABAd)
+
 # Table des matières
+
 1. [Origine et traitement des données](#OrigineEtTraitemenDesDonnées)
 2. [Première datavisualisation avec l'outil Flourish](#1datavizFlourish)
 3. [Deuxième datavisualisation avec l'outil Datawrapper](#2datavizDatawrapper)
 
-# Projet de datavisualisation - Arrondissements de Paris
 
 ## Origine et traitement des données
 
