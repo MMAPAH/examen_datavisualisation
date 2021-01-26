@@ -27,8 +27,6 @@ Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils d
 
 Grace à la deuxième visualisation cartographique, nous pouvons voir les arrondissements les plus peuplées.
 
-! [prixParis](HistoriquedesprixaumappartementsanciensParispararrdt.pdf)
-
 ## Troisième datavisualisation avec l'outil WikiData
 
 ## Conclution:
