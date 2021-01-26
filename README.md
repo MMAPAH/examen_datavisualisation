@@ -23,6 +23,8 @@ Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils d
 
 ## Deuxième datavisualisation avec l'outil Datawrapper
 
+<iframe title="" aria-label="Carte" id="datawrapper-chart-Z2G3Y" src="https://datawrapper.dwcdn.net/Z2G3Y/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="411"></iframe>
+
 Grace à la deuxième visualisation cartographique, nous pouvons voir les arrondissements les plus peuplées.
 
 ! [prixParis](HistoriquedesprixaumappartementsanciensParispararrdt.pdf)
