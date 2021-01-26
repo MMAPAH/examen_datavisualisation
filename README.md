@@ -1,6 +1,6 @@
 # Projet de datavisualisation - Arrondissements de Paris
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+->![alt text](https://lh3.googleusercontent.com/proxy/cBGnHZlcpeen8_ueDc7JRoC7o3r2UwBtVurtDdw8VE3hIWe9-enWEJBCtVjwdCiZ144P9tWNEgiBe8eSvI-CqLSNcoSr3EQN1m4dnknQvCaKfPA5lgTlDy4I3KpOnvOYsCnaah5bKlFmxu22Bf70KBKI0gOsPf_wwbY3feyhHW8)<-
 
 # Table des matières
 
