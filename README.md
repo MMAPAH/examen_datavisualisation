@@ -16,7 +16,7 @@ Les données de l'évolution démographique au fil des années ont été trouvé
 
 Données brutes:
 
-![donnees brutes]()
+![donnees brutes](Documents/Nanterre/dataviz/image_github/donnes_brutes.png)
 
 Données finales:
 |                          |  2017  |  2012  |  2007  |  1999  |  1990  |  1982  |  1975  |  1968  |
