@@ -1,8 +1,7 @@
 # Projet de datavisualisation - Arrondissements de Paris
 
-![arrondissement de paris](https://lh3.googleusercontent.com/proxy/cBGnHZlcpeen8_ueDc7JRoC7o3r2UwBtVurtDdw8VE3hIWe9-enWEJBCtVjwdCiZ144P9tWNEgiBe8eSvI-CqLSNcoSr3EQN1m4dnknQvCaKfPA5lgTlDy4I3KpOnvOYsCnaah5bKlFmxu22Bf70KBKI0gOsPf_wwbY3feyhHW8)
+![arrondissement de paris](https://www.de-nicher.com/wp-content/uploads/sites/5/2019/06/carte-arrondissements-off.jpg)
 
-![arrondissement de paris](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.de-nicher.com%2F2019%2F07%2Fencadrement-loyers-again&psig=AOvVaw1b1LYF80GYvSNM-heG1qPy&ust=1611855693918000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNDcrsLUvO4CFQAAAAAdAAAAABAI)
 
 
 # Table des matières
@@ -16,10 +15,6 @@
 ## Origine et traitement des données
 
 Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définie, nous n'avons pas eu à réaliser de travaux préparatoires ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1970 et 2015.
-
-Données brutes:
-
-![donnees brutes](donnes_brutes.png)
 
 Données finales:
 |                          |  2017  |  2012  |  2007  |  1999  |  1990  |  1982  |  1975  |  1968  |
