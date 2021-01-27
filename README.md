@@ -52,7 +52,7 @@ Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils d
 
 Cette datavisualisation a été réalisé en choisissant une carte des arrondissements De Paris (peu d'outils l'ont), ensuite, nos données ont été légérement modifiées (premier colonne doit correcpondre soit au code, code INSEE ou name), puis importées dant l'outil. Une chose importante a été rajoutée pour voir l'évolution d'habitants en cliquant sur arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants).
 
-<iframe title="" aria-label="Carte" id="datawrapper-chart-Z2G3Y" src="https://datawrapper.dwcdn.net/Z2G3Y/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="411"></iframe>
+<iframe title="" aria-label="Carte" id="datawrapper-chart-Z2G3Y" src="https://datawrapper.dwcdn.net/Z2G3Y/1/" scrolling="no" frameborder="0" style="border: none;" width="800" height="411"></iframe>
 
 Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'emplacemment de chaque arrondissement, ainsi que voir la dentité de population en 2017 et en cliquant sur chaque arrondissement le nombre d'habitants entre 1968 et 2012.
 
