@@ -29,7 +29,7 @@ Grace à la deuxième visualisation cartographique, nous pouvons voir les arrond
 
 ## Visualisation de Paris avec Wikidata Query Service
 ```sparql
-#defaulView:ImageGrid
+#defaultView:ImageGrid
 SELECT DISTINCT ?arr ?image
 WHERE {?arr wdt:P131 wd:Q90; # c'est un arrondissement de paris 
             wdt:P18 ?image # avec une image
