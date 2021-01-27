@@ -98,8 +98,10 @@ LIMIT 1500
 ## Conclution
 #### Gestion du projet:
 
-Complexités: les données brutes étaient mieux formatées ous xslx, que sous csv. Il faut adapter les données à chaque application,chaque application ayant ses limites (Flourish ne permet pas d'illustrer la variation faible des données, Datawrapper ne permet pas de faire un storytelling pour voir la densité de popoulation par année). L'bsence de données sur les prix de l'immobilier depuis 1968. 
+Ce projet nous a permis de vivre pleinement le processus qui s'appelle Data Wrangling, en partant des données brutes, nous avons réussi de les découvrir, structurer, valider et de publier les résultats sur cette page de github.
+
+Complexités: les données brutes étaient mieux formatées ous xslx, que sous csv. Il faut adapter les données à chaque application, chaque application ayant ses limites (Flourish ne permet pas d'illustrer la variation faible des données, Datawrapper ne permet pas de faire un storytelling pour voir la densité de popoulation par année, Wikidata Query Service ne permet pas spécifier/filtrer le type de photos à afficher (uniquement de l'exterier, pas de plan/schèma de Paris et assez récentes)). L'bsence de données sur les prix de l'immobilier depuis 1968. 
 
 #### Sujet: 
-Le sujet en question présente pour moi un intéret particulier. En effet, il était intéressant de se pencher sur l'évolution de population par arrondissement. Grace aux différents types de datavisualisation, nous avons pu mettre en avant differents problèmatiques. En outre, nous avons essayé de faire un lien entre l'évolution de population avec celle des prix de l'immobilier pour comprendre les raisons de ces changements.
+Le sujet en question présente pour moi un intéret particulier. En effet, il était intéressant de se pencher sur l'évolution de population par arrondissement. Grace aux plusieurs types de datavisualisation, nous avons pu mettre en avant differents problèmatiques. En outre, nous avons essayé de faire un lien entre l'évolution de population avec celle des prix de l'immobilier pour comprendre les raisons de ces changements.Sans parler, du coté esthétique, les photos de Paris à la fin. 
 
