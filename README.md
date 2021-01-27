@@ -1,7 +1,8 @@
 # Projet de datavisualisation - Arrondissements de Paris
 
 ![arrondissement de paris](https://lh3.googleusercontent.com/proxy/cBGnHZlcpeen8_ueDc7JRoC7o3r2UwBtVurtDdw8VE3hIWe9-enWEJBCtVjwdCiZ144P9tWNEgiBe8eSvI-CqLSNcoSr3EQN1m4dnknQvCaKfPA5lgTlDy4I3KpOnvOYsCnaah5bKlFmxu22Bf70KBKI0gOsPf_wwbY3feyhHW8)
-![test](donnes_brutes.png)
+
+<img src="/Documents/Nanterre/dataviz/image_github/donnes_brutes.png" alt="donnees_brutes" width="200"/>
 
 # Table des matières
 
