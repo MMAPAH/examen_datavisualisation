@@ -36,8 +36,10 @@ SELECT DISTINCT ?arr ?image
 WHERE {?arr wdt:P131 wd:Q90; # c'est un arrondissement de paris 
             wdt:P18 ?image # avec une image
        }
+LIMIT 1000
 ```
-<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaulView%3AImageGrid%0ASELECT%20DISTINCT%20%3Farr%20%3Fimage%0AWHERE%20%7B%3Farr%20wdt%3AP131%20wd%3AQ90%3B%20%23%20c%27est%20un%20arrondissement%20de%20paris%20%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimage%20%23%20avec%20une%20image%0A%20%20%20%20%20%20%20%7D%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaulView%3AImageGrid%0ASELECT%20DISTINCT%20%3Farr%20%3Fimage%0AWHERE%20%7B%3Farr%20wdt%3AP131%20wd%3AQ90%3B%20%23%20c%27est%20un%20arrondissement%20de%20paris%20%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimage%20%23%20avec%20une%20image%0A%20%20%20%20%20%20%20%7D%0ALIMIT%201000%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 
 ## Conclution:
