@@ -11,7 +11,7 @@
 
 ## Origine et traitement des données
 
-Les données de l'évolution déomgraphique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définie, nous n'avons pas eu à réaliser de travaux préparatoires ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1970 et 2015.
+Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définie, nous n'avons pas eu à réaliser de travaux préparatoires ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1970 et 2015.
 
 ## Première datavisualisation avec l'outil Flourish
 
@@ -23,11 +23,22 @@ Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils d
 
 ## Deuxième datavisualisation avec l'outil Datawrapper
 
+## Images des arrondissement reçus avec une requete 
+
 <iframe title="" aria-label="Carte" id="datawrapper-chart-Z2G3Y" src="https://datawrapper.dwcdn.net/Z2G3Y/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="411"></iframe>
 
 Grace à la deuxième visualisation cartographique, nous pouvons voir les arrondissements les plus peuplées.
 
-## Troisième datavisualisation avec l'outil WikiData
+## Visualisation de Paris avec Wikidata Query Service
+```sparql
+#defaulView:ImageGrid
+SELECT DISTINCT ?arr ?image
+WHERE {?arr wdt:P131 wd:Q90; # c'est un arrondissement de paris 
+            wdt:P18 ?image # avec une image
+       }
+```
+<iframe style="width: 80vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaulView%3AImageGrid%0ASELECT%20DISTINCT%20%3Farr%20%3Fimage%0AWHERE%20%7B%3Farr%20wdt%3AP131%20wd%3AQ90%3B%20%23%20c%27est%20un%20arrondissement%20de%20paris%20%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimage%20%23%20avec%20une%20image%0A%20%20%20%20%20%20%20%7D%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
 
 ## Conclution:
 
