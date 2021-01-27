@@ -1,6 +1,7 @@
 # Projet de datavisualisation - Arrondissements de Paris
 
 ![arrondissement de paris](https://lh3.googleusercontent.com/proxy/cBGnHZlcpeen8_ueDc7JRoC7o3r2UwBtVurtDdw8VE3hIWe9-enWEJBCtVjwdCiZ144P9tWNEgiBe8eSvI-CqLSNcoSr3EQN1m4dnknQvCaKfPA5lgTlDy4I3KpOnvOYsCnaah5bKlFmxu22Bf70KBKI0gOsPf_wwbY3feyhHW8)
+![test](Images/donnes_brutes.png)
 
 # Table des matières
 
@@ -16,7 +17,7 @@ Les données de l'évolution démographique au fil des années ont été trouvé
 
 Données brutes:
 
-![donnees brutes](Documents/Nanterre/dataviz/image_github/donnes_brutes.png)
+![donnees brutes](Images/donnes_brutes.png)
 
 Données finales:
 |                          |  2017  |  2012  |  2007  |  1999  |  1990  |  1982  |  1975  |  1968  |
