@@ -54,13 +54,15 @@ Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils d
 
 ## 3. Deuxième datavisualisation avec l'outil Datawrapper
 
-Cette datavisualisation a été réalisé en choisissant une carte des arrondissements De Paris (peu d'outils l'ont), ensuite, nos données ont été légérement modifiées (premier colonne doit correcpondre soit au code, code INSEE ou name), puis importées dant l'outil. Une chose importante a été rajoutée pour voir l'évolution d'habitants en cliquant sur arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants).
+Cette datavisualisation a été réalisé en choisissant une carte des arrondissements De Paris (peu d'outils l'ont), ensuite, nos données ont été légérement modifiées (première colonne doit correspondre soit au code, code INSEE ou name), puis importées dans l'outil. Une chose importante a été rajoutée pour voir l'évolution d'habitants en cliquant sur arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants).
 
 <iframe title="" aria-label="Carte" id="datawrapper-chart-Z2G3Y" src="https://datawrapper.dwcdn.net/Z2G3Y/1/" scrolling="no" frameborder="0" style="border: none;" width="690" height="411"></iframe>
 
-Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'emplacemment de chaque arrondissement, ainsi que voir la dentité de population en 2017 et en cliquant sur chaque arrondissement le nombre d'habitants entre 1968 et 2012.
+Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'emplacement de chaque arrondissement, ainsi que voir la densité de population en 2017 et en cliquant sur chaque arrondissement le nombre d'habitants entre 1968 et 2012.
 
 ## 4. Troisième datavisualisation avec l'outil OpenRefine
+
+Voir si je peux récupérer les données ici: https://m2paris.fr
 
 ## 5. Visualisation de Paris avec Wikidata Query Service
 ```sparql
@@ -93,7 +95,11 @@ LIMIT 1500
 <iframe style="width: 55vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%0A%20%20%3Farr%0A%20%20%28SAMPLE%20%28%3FtitleL%29%20AS%20%3Ftitle%29%0A%20%20%28SAMPLE%20%28%3Fimg%29%20AS%20%3Fimage%29%0A%20%20%28SAMPLE%20%28%3Fcoord%29%20AS%20%3Fcoordinates%29%20%7B%0A%0A%20%20%20%20%7B%0A%20%20%20%20%20%20SELECT%20DISTINCT%20%3Farr%20%7B%0A%20%20%20%20%20%20%20%20%3Farr%20%20wdt%3AP131%20wd%3AQ90%3B%7D%0A%20%20%20%20%7D%0A%20%20%20%20%23%20title%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20rdfs%3Alabel%20%3FtitleL%20filter%20%28lang%28%3FtitleL%29%20%3D%20%22fr%22%29%20%7D%0A%20%20%20%0A%20%20%20%20%23%20image%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP18%20%3Fimg%20%7D%0A%20%20%20%0A%20%20%20%20%23%20coordinates%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP625%20%3Fcoord%20%7D%0A%0A%7D%20GROUP%20BY%20%3Farr%0ALIMIT%201500" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 
-## Conclution:
+## Conclution
+#### Gestion du projet:
 
+Complexités: les données brutes étaient mieux formatées ous xslx, que sous csv. Il faut adapter les données à chaque application,chaque application ayant ses limites (Flourish ne permet pas d'illustrer la variation faible des données, Datawrapper ne permet pas de faire un storytelling pour voir la densité de popoulation par année). L'bsence de données sur les prix de l'immobilier depuis 1968. 
 
+#### Sujet: 
+Le sujet en question présente pour moi un intéret particulier. En effet, il était intéressant de se pencher sur l'évolution de population par arrondissement. Grace aux différents types de datavisualisation, nous avons pu mettre en avant differents problèmatiques. En outre, nous avons essayé de faire un lien entre l'évolution de population avec celle des prix de l'immobilier pour comprendre les raisons de ces changements.
 
