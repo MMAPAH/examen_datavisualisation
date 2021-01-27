@@ -16,7 +16,7 @@
 
 Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définie, nous n'avons pas eu à réaliser de travaux préparatoires ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1970 et 2015.
 
-Données finales:
+### Données finales:
 
 |                          |  2017  |  2012  |  2007  |  1999  |  1990  |  1982  |  1975  |  1968  |
 |--------------------------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
