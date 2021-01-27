@@ -6,13 +6,13 @@
 
 # Table des matières
 
-[Origine et traitement des données](#OrigineEtTraitementDesDonnées)
-[Première datavisualisation avec l'outil Flourish](#1datavizFlourish)
-[Deuxième datavisualisation avec l'outil Datawrapper](#2datavizDatawrapper)
-[Troisième datavisualisation avec l'outil OpenRefine](#3datavizOpenrefine)
-[Visualisation de Paris avec Wikidata Query Service](#4queryWikiData)
+1. [Origine et traitement des données](##OrigineEtTraitementDesDonnées)
+2. [Première datavisualisation avec l'outil Flourish](##1datavizFlourish)
+3. [Deuxième datavisualisation avec l'outil Datawrapper](##2datavizDatawrapper)
+4. [Troisième datavisualisation avec l'outil OpenRefine](##3datavizOpenrefine)
+5. [Visualisation de Paris avec Wikidata Query Service](##4queryWikiData)
 
-## Origine et traitement des données
+## 1. Origine et traitement des données
 
 Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définie, nous n'avons pas eu à réaliser de travaux préparatoires ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1970 et 2015.
 
@@ -42,7 +42,7 @@ Données finales:
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-## Première datavisualisation avec l'outil Flourish
+## 2. Première datavisualisation avec l'outil Flourish
 
 Pour créer le visuel des données récoltées, nous avons décidé d'utiliser le graphique  "Line Chart Race" avec trois paramètres suivantes: année, arrondissement et population. C'est un graphique en relief qui est souvent utilisé pour visualiser efficacement le classement des données (dans notre cas les arrondissements) à travers différentes mesures (population) au fil du temps. 
 
@@ -51,7 +51,7 @@ Pour créer le visuel des données récoltées, nous avons décidé d'utiliser l
 Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils des années. Sachant que les données changeaient bien au fil des années, nous nous solmes rendus compte qu'il s'agit de graphique, voir outil qui ne permet pas illustrer la variation faible des données. 
 
 
-## Deuxième datavisualisation avec l'outil Datawrapper
+## 3. Deuxième datavisualisation avec l'outil Datawrapper
 
 Cette datavisualisation a été réalisé en choisissant une carte des arrondissements De Paris (peu d'outils l'ont), ensuite, nos données ont été légérement modifiées (premier colonne doit correcpondre soit au code, code INSEE ou name), puis importées dant l'outil. Une chose importante a été rajoutée pour voir l'évolution d'habitants en cliquant sur arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants).
 
@@ -59,9 +59,9 @@ Cette datavisualisation a été réalisé en choisissant une carte des arrondiss
 
 Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'emplacemment de chaque arrondissement, ainsi que voir la dentité de population en 2017 et en cliquant sur chaque arrondissement le nombre d'habitants entre 1968 et 2012.
 
-## Troisième datavisualisation avec l'outil OpenRefine
+## 4. Troisième datavisualisation avec l'outil OpenRefine
 
-## Visualisation de Paris avec Wikidata Query Service
+## 5. Visualisation de Paris avec Wikidata Query Service
 ```sparql
 #defaultView:ImageGrid
 SELECT
