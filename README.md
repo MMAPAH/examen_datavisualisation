@@ -30,12 +30,32 @@ Grace à la deuxième visualisation cartographique, nous pouvons voir les arrond
 ## Visualisation de Paris avec Wikidata Query Service
 ```sparql
 #defaultView:ImageGrid
-SELECT DISTINCT ?arr ?image
-WHERE {?arr wdt:P131 wd:Q90; # c'est un arrondissement de paris 
-            wdt:P18 ?image; # avec une image
-} 
+SELECT
+  ?arr
+  (SAMPLE (?titleL) AS ?title)
+  (SAMPLE (?img) AS ?image)
+  (SAMPLE (?coord) AS ?coordinates) {
+
+    {
+      SELECT DISTINCT ?arr {
+        ?arr  wdt:P131 wd:Q90;}
+    }
+    # title
+    OPTIONAL { ?arr rdfs:label ?titleL filter (lang(?titleL) = "fr") }
+   
+    # image
+    OPTIONAL { ?arr wdt:P18 ?img }
+   
+    # coordinates
+    OPTIONAL { ?arr wdt:P625 ?coord }
+
+} GROUP BY ?arr
+LIMIT 1500 
 ```
-<iframe style="width: 70vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%3Farr%20%3Fimage%0AWHERE%20%7B%3Farr%20wdt%3AP131%20wd%3AQ90%3B%20%23%20c%27est%20un%20arrondissement%20de%20paris%20%0A%20%20%20%20%20%20%20%20%20%20%20%20wdt%3AP18%20%3Fimage%3B%20%23%20avec%20une%20image%20panoramique%0A%7D%20%0A%0A%0A" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
+
+Si il y ac des images qui vous intéresse, vous pouvez voir le titre de lieu, ainsi que ses coordonnées géographiques.
+
+<iframe style="width: 70vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%0A%20%20%3Farr%0A%20%20%28SAMPLE%20%28%3FtitleL%29%20AS%20%3Ftitle%29%0A%20%20%28SAMPLE%20%28%3Fimg%29%20AS%20%3Fimage%29%0A%20%20%28SAMPLE%20%28%3Fcoord%29%20AS%20%3Fcoordinates%29%20%7B%0A%0A%20%20%20%20%7B%0A%20%20%20%20%20%20SELECT%20DISTINCT%20%3Farr%20%7B%0A%20%20%20%20%20%20%20%20%3Farr%20%20wdt%3AP131%20wd%3AQ90%3B%7D%0A%20%20%20%20%7D%0A%20%20%20%20%23%20title%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20rdfs%3Alabel%20%3FtitleL%20filter%20%28lang%28%3FtitleL%29%20%3D%20%22fr%22%29%20%7D%0A%20%20%20%0A%20%20%20%20%23%20image%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP18%20%3Fimg%20%7D%0A%20%20%20%0A%20%20%20%20%23%20coordinates%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP625%20%3Fcoord%20%7D%0A%0A%7D%20GROUP%20BY%20%3Farr%0ALIMIT%201500" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 
 ## Conclution:
