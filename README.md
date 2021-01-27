@@ -1,4 +1,5 @@
-# Projet de datavisualisation: Arrondissements de Paris
+# [center]Projet de datavisualisation:[/center] 
+# [center]Arrondissements de Paris[/center]
 
 ![arrondissement de paris](https://www.de-nicher.com/wp-content/uploads/sites/5/2019/06/carte-arrondissements-off.jpg)
 
@@ -6,11 +7,7 @@
 
 # Table des matières
 
-1. [Origine et traitement des données](##OrigineEtTraitemenDesDonnées)
-2. [Première datavisualisation avec l'outil Flourish](##1datavizFlourish)
-3. [Deuxième datavisualisation avec l'outil Datawrapper](##2datavizDatawrapper)
-4. [Troisième datavisualisation avec l'outil OpenRefine](##3datavizOpenrefine)
-5. [Visualisation de Paris avec Wikidata Query Service](##4queryWikiData)
+1.[Origine et traitement des données](#OrigineEtTraitemenDesDonnées)2.[Première datavisualisation avec l'outil Flourish](#1datavizFlourish)3. [Deuxième datavisualisation avec l'outil Datawrapper](#2datavizDatawrapper)4.[Troisième datavisualisation avec l'outil OpenRefine](#3datavizOpenrefine)5.[Visualisation de Paris avec Wikidata Query Service](##4queryWikiData)
 
 ## Origine et traitement des données
 
