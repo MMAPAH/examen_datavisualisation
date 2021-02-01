@@ -20,7 +20,7 @@
 
 Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définie, nous n'avons pas eu à réaliser de travaux préparatoires ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1968 et 2015.
 
-### Données finales:
+### Extrait des données finales:
 
 |                          |  2017  |  2012  |  2007  |  1999  |  1990  |  1982  |  1975  |  1968  |
 |--------------------------|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
@@ -32,18 +32,7 @@ Les données de l'évolution démographique au fil des années ont été trouvé
 | Paris 6e Arrondissement  | 41100  | 43224  | 45332  | 44919  | 47891  | 48905  | 56331  | 70891  |
 | Paris 7e Arrondissement  | 51367  | 57092  | 57410  | 56985  | 62939  | 67461  | 74250  | 87811  |
 | Paris 8e Arrondissement  | 36808  | 38749  | 39165  | 39314  | 40814  | 46403  | 52999  | 67897  |
-| Paris 9e Arrondissement  | 59555  | 59474  | 58632  | 55838  | 58019  | 64134  | 70270  | 84969  |
-| Paris 10e Arrondissement | 90372  | 94474  | 93373  | 89612  | 90083  | 86970  | 94046  | 113372 |
-| Paris 11e Arrondissement | 146643 | 155006 | 151421 | 149102 | 154165 | 146931 | 159317 | 179727 |
-| Paris 12e Arrondissement | 140296 | 144925 | 142425 | 136591 | 130257 | 138015 | 140900 | 155982 |
-| Paris 13e Arrondissement | 182099 | 182386 | 179213 | 171533 | 171098 | 170818 | 163313 | 158280 |
-| Paris 14e Arrondissement | 135964 | 141102 | 134382 | 132844 | 136574 | 138596 | 149137 | 167093 |
-| Paris 15e Arrondissement | 233392 | 238190 | 232247 | 225362 | 223940 | 225596 | 231301 | 244080 |
-| Paris 16e Arrondissement | 166361 | 167613 | 159706 | 161773 | 169863 | 179446 | 193590 | 214120 |
-| Paris 17e Arrondissement | 167288 | 170156 | 164673 | 160860 | 161935 | 169513 | 186293 | 210299 |
-| Paris 18e Arrondissement | 195233 | 201374 | 191523 | 184586 | 187657 | 186866 | 208970 | 236776 |
-| Paris 19e Arrondissement | 187015 | 186116 | 184038 | 172730 | 165062 | 162649 | 144357 | 148862 |
-| Paris 20e Arrondissement | 195814 | 197311 | 194018 | 182952 | 184478 | 171971 | 175795 | 188921 |
+
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
