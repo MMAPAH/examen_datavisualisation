@@ -12,7 +12,8 @@
 3. [Deuxième datavisualisation avec une carte (Datawrapper)](#3-deuxième-datavisualisation-avec-une-carte-datawrapper)
 4. [Traitement des données de prix moyens par arrondissement](#4-traitement-des-données-de-prix-moyens-par-arrondissement)
 5. [Troisième datavisualisation avec Bar chart race (Flourish)](#5-troisième-datavisualisation-avec-bar-chart-race-flourish)
-6. [Visualisation de Paris avec Wikidata Query Service](#6-visualisation-de-paris-avec-wikidata-query-service)
+6. [Alignement des données](#§-alignement-des-données)
+7. [Visualisation de Paris avec Wikidata Query Service](#6-visualisation-de-paris-avec-wikidata-query-service)
 
 
 ## 1. Origine et traitement des données sur la densité de population par arrondissement
@@ -130,8 +131,11 @@ Pour visualiser ces données, nous avons décidé d'utiliser Bar chart race sur 
 
 <iframe src='https://flo.uri.sh/visualisation/5154066/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5154066/?utm_source=embed&utm_campaign=visualisation/5154066' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
+## 6. Alignement des données
 
-## 6. Visualisation de Paris avec Wikidata Query Service
+
+
+## 7. Visualisation de Paris avec Wikidata Query Service
 ```sparql
 #defaultView:ImageGrid
 SELECT
