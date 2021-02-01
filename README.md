@@ -7,9 +7,9 @@
 # Table des matières
 
 1. [Origine et traitement des données](##OrigineEtTraitementDesDonnées)
-2. [Première datavisualisation avec l'outil Flourish](##1datavizFlourish)
-3. [Deuxième datavisualisation avec l'outil Datawrapper](##2datavizDatawrapper)
-4. [Troisième datavisualisation avec l'outil OpenRefine](##3datavizOpenrefine)
+2. [Première datavisualisation avec un line chart race](##1datavizArrondissement)
+3. [Deuxième datavisualisation avec une carte](##2datavizDatawrapper)
+4. [Troisième datavisualisation avec l'outil OpenRefine](##3datavizPrix)
 5. [Visualisation de Paris avec Wikidata Query Service](##4queryWikiData)
 
 ## 1. Origine et traitement des données
@@ -43,7 +43,7 @@ Les données de l'évolution démographique au fil des années ont été trouvé
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-## 2. Première datavisualisation avec l'outil Flourish
+## 2. Première datavisualisation avec un line chart race (Flourish)
 
 Pour créer le visuel des données récoltées, nous avons décidé d'utiliser le graphique  "Line Chart Race" avec trois paramètres suivantes: année, arrondissement et population. C'est un graphique en relief qui est souvent utilisé pour visualiser efficacement le classement des données (dans notre cas les arrondissements) à travers différentes mesures (population) au fil du temps. 
 
@@ -52,7 +52,7 @@ Pour créer le visuel des données récoltées, nous avons décidé d'utiliser l
 Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils des années. Sachant que les données changeaient bien au fil des années, nous nous solmes rendus compte qu'il s'agit de graphique, voir outil qui ne permet pas illustrer la variation faible des données. 
 
 
-## 3. Deuxième datavisualisation avec l'outil Datawrapper
+## 3. Deuxième datavisualisation avec une carte (Datawrapper)
 
 Cette datavisualisation a été réalisé en choisissant une carte des arrondissements de Paris (peu d'outils l'ont), ensuite, nos données ont été légérement modifiées (première colonne doit correspondre soit au code, code INSEE ou name), puis importées dans l'outil. Une chose importante a été rajoutée pour voir l'évolution d'habitants en cliquant sur arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants).
 
@@ -60,9 +60,11 @@ Cette datavisualisation a été réalisé en choisissant une carte des arrondiss
 
 Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'emplacement de chaque arrondissement, ainsi que voir la densité de population en 2017 et en cliquant sur chaque arrondissement le nombre d'habitants entre 1968 et 2012.
 
-## 4. Troisième datavisualisation des prix moyens par arrondissement
+## 4. Traitement des données de prix moyens par arrondissement)
 
-Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). Les modifications suivantes ont été réalisées: changement du format (pdf vers csv), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation.
+Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). 
+Ces données représente une historique des prix au m2 standardisés des appartements anciens à Paris par arrondissement.Les données de la Base BIEN sont issues des actes authentiques signés dans les offices notariaux français. 
+Les modifications suivantes ont été réalisées: changement du format (pdf vers csv), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation.
 
 | Trimestre | Centre   | 1er      |    2e    |    3e    |    4e    |    5e    |    6e    |    7e    |
 |-----------|----------|----------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
