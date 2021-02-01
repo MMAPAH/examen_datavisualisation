@@ -13,6 +13,7 @@
 4. [Traitement des données de prix moyens par arrondissement](#4-traitement-des-donnees-de-prix-moyens-par-arrondissement)
 5. [Troisième datavisualisation avec Bar chart race (Flourish)](#5-troisieme-datavisualisation-avec-bar-chart-race-flourish)
 6. [Visualisation de Paris avec Wikidata Query Service](#6-visualisation-de-paris-avec-wikidata-query-service)
+
 [Conclusion] (#7-conclusion)
 
 ## 1. Origine et traitement des données sur la densité de population par arrondissement
