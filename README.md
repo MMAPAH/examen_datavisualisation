@@ -54,7 +54,7 @@ Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fils d
 
 ## 3. Deuxième datavisualisation avec l'outil Datawrapper
 
-Cette datavisualisation a été réalisé en choisissant une carte des arrondissements De Paris (peu d'outils l'ont), ensuite, nos données ont été légérement modifiées (première colonne doit correspondre soit au code, code INSEE ou name), puis importées dans l'outil. Une chose importante a été rajoutée pour voir l'évolution d'habitants en cliquant sur arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants).
+Cette datavisualisation a été réalisé en choisissant une carte des arrondissements de Paris (peu d'outils l'ont), ensuite, nos données ont été légérement modifiées (première colonne doit correspondre soit au code, code INSEE ou name), puis importées dans l'outil. Une chose importante a été rajoutée pour voir l'évolution d'habitants en cliquant sur arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants).
 
 <iframe title="" aria-label="Carte" id="datawrapper-chart-Z2G3Y" src="https://datawrapper.dwcdn.net/Z2G3Y/1/" scrolling="no" frameborder="0" style="border: none;" width="690" height="411"></iframe>
 
@@ -62,7 +62,7 @@ Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'em
 
 ## 4. Troisième datavisualisation des prix moyens par arrondissement
 
-Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). Les modifications suivantes ont été réalisées: calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation.
+Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). Les modifications suivantes ont été réalisées: changement du format (pdf vers csv), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation.
 
 | Trimestre | Centre   | 1er      |    2e    |    3e    |    4e    |    5e    |    6e    |    7e    |
 |-----------|----------|----------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -88,6 +88,7 @@ Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic
 | T4 2015   | 10 050 € | 11 030 € |  9 290 € |  9 550 € | 11 130 € | 10 300 € | 11 160 € | 10 860 € |
 | T3 2015   | 10 120 € | 10 500 € |  9 560 € |  9 820 € | 11 520 € |  9 940 € | 11 560 € | 10 810 € |
 
+> Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
 
 Vous pouvez voir ci-dessus une partie les données finales:
@@ -114,6 +115,13 @@ Vous pouvez voir ci-dessus une partie les données finales:
 | 18e |         8 008 € |         7 423 € |         7 130 € |         7 115 € |
 | 19e |         7 035 € |         6 585 € |         6 483 € |         6 655 € |
 | 20e |         7 458 € |         6 945 € |         6 768 € |         6 843 € |
+
+> Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
+
+Pour visualiser ces données, nous avons décidé d'utiliser Bar chart race sur Flourish, ce que nous a permit avoir la visualisation dynamique au fil des années.
+
+<iframe src='https://flo.uri.sh/visualisation/5154066/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5154066/?utm_source=embed&utm_campaign=visualisation/5154066' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
+
 
 
 
