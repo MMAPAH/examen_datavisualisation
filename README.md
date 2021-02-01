@@ -55,10 +55,7 @@ Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'em
 
 ## 4. Traitement des données de prix moyens par arrondissement
 
-Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). 
-
-Ces données représente une historique des prix au m2 standardisés des appartements anciens à Paris par arrondissement.Les données de la Base BIEN sont issues des actes authentiques signés dans les offices notariaux français. 
-Les modifications suivantes ont été réalisées: changement du format (pdf vers csv), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation.
+Les données que nous avons pu récupérer ici :https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf. Ces données représente une historique des prix au m2 standardisés des appartements anciens à Paris par arrondissement. Les données de la Base BIEN sont issues des actes authentiques signés dans les offices notariaux français. 
 
 | Trimestre | Centre   | 1er      |    2e    |    3e    |    4e    |    5e    |    6e    |    7e    |
 |-----------|----------|----------|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
@@ -73,11 +70,9 @@ Les modifications suivantes ont été réalisées: changement du format (pdf ver
 | T3 2018   | 11 820 € | 12 780 € | 11 360 € | 11 300 € | 12 750 € | 11 800 € | 13 000 € | 12 350 € |
 | T2 2018   | 11 580 € | 12 270 € | 11 250 € | 11 150 € | 12 340 € | 11 290 € | 12 640 € | 12 310 € |
 
-
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-
-Vous pouvez voir ci-dessus une partie les données finales:
+Les modifications suivantes ont été réalisées: changement du format (pdf vers csv), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation. Vous pouvez voir ci-dessus une partie les données finales:
 
 |     | Prix moyen 2017 | Prix moyen 2016 | Prix moyen 2015 | Prix moyen 2014 |
 |-----|-----------------|-----------------|-----------------|-----------------|
@@ -93,7 +88,6 @@ Vous pouvez voir ci-dessus une partie les données finales:
 | 10e |         8 270 € |         7 615 € |         7 385 € |         7 403 € |
 | 11e |         8 735 € |         8 065 € |         7 840 € |         7 920 € |
 
-
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
 ## 5. Troisième datavisualisation avec Bar chart race (Flourish)
@@ -103,7 +97,7 @@ Pour visualiser ces données, nous avons décidé d'utiliser Bar chart race sur 
 <iframe src='https://flo.uri.sh/visualisation/5154066/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5154066/?utm_source=embed&utm_campaign=visualisation/5154066' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 ## 6. Alignement des données
-
+Nous avons regrouper deux fichiers de données, celui de population et celui avec les prix au m2 pour voir si ces deux mouvements sont liés.
 
 
 ## 7. Visualisation de Paris avec Wikidata Query Service
