@@ -6,13 +6,15 @@
 
 # Table des matières
 
-1. [Origine et traitement des données](##OrigineEtTraitementDesDonnées)
-2. [Première datavisualisation avec un line chart race](##1datavizArrondissement)
-3. [Deuxième datavisualisation avec une carte](##2datavizDatawrapper)
-4. [Troisième datavisualisation avec l'outil OpenRefine](##3datavizPrix)
-5. [Visualisation de Paris avec Wikidata Query Service](##4queryWikiData)
+1. [Origine et traitement des données sur la densité de population par arrondissement](##traitement_arrondissement)
+2. [Première datavisualisation avec Line chart race (Flourish)](##dataviz_arrondissement)
+3. [Deuxième datavisualisation avec une carte (Datawrapper)](##dataviz_datawrapper)
+4. [Traitement des données de prix moyens par arrondissement](##traitement_prix)
+5. [Troisième datavisualisation avec Bar chart race (Flourish)](#dataviz_prix)
+6. [Visualisation de Paris avec Wikidata Query Service](##5query_wikidata)
+[Conclusion] (#conclusion)
 
-## 1. Origine et traitement des données
+## 1. Origine et traitement des données sur la densité de population par arrondissement
 
 Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définie, nous n'avons pas eu à réaliser de travaux préparatoires ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution des arrondissements de Paris entre 1968 et 2015.
 
@@ -60,7 +62,7 @@ Cette datavisualisation a été réalisé en choisissant une carte des arrondiss
 
 Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'emplacement de chaque arrondissement, ainsi que voir la densité de population en 2017 et en cliquant sur chaque arrondissement le nombre d'habitants entre 1968 et 2012.
 
-## 4. Traitement des données de prix moyens par arrondissement)
+## 4. Traitement des données de prix moyens par arrondissement
 
 Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). 
 Ces données représente une historique des prix au m2 standardisés des appartements anciens à Paris par arrondissement.Les données de la Base BIEN sont issues des actes authentiques signés dans les offices notariaux français. 
@@ -120,14 +122,14 @@ Vous pouvez voir ci-dessus une partie les données finales:
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
+## 5. Troisième datavisualisation avec Bar chart race (Flourish)
+
 Pour visualiser ces données, nous avons décidé d'utiliser Bar chart race sur Flourish, ce que nous a permit avoir la visualisation dynamique au fil des années.
 
 <iframe src='https://flo.uri.sh/visualisation/5154066/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5154066/?utm_source=embed&utm_campaign=visualisation/5154066' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 
-
-
-## 5. Visualisation de Paris avec Wikidata Query Service
+## 6. Visualisation de Paris avec Wikidata Query Service
 ```sparql
 #defaultView:ImageGrid
 SELECT
