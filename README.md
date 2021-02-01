@@ -12,8 +12,8 @@
 3. [Deuxième datavisualisation avec une carte (Datawrapper)](#3-deuxième-datavisualisation-avec-une-carte-datawrapper)
 4. [Traitement des données de prix moyens par arrondissement](#4-traitement-des-données-de-prix-moyens-par-arrondissement)
 5. [Troisième datavisualisation avec Bar chart race (Flourish)](#5-troisième-datavisualisation-avec-bar-chart-race-flourish)
-6. [Alignement des données et leurs datavisualisation](#5-alignement-des-données-et-leur-datavisualisation)
-7. [Visualisation de Paris avec Wikidata Query Service](#6-visualisation-de-paris-avec-wikidata-query-service)
+6. [Alignement des données et leurs datavisualisation](#6-alignement-des-données-et-leur-datavisualisation)
+7. [Visualisation de Paris avec Wikidata Query Service](#7-visualisation-de-paris-avec-wikidata-query-service)
 
 
 ## 1. Origine et traitement des données sur la densité de population par arrondissement
