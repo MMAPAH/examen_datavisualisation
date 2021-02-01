@@ -7,10 +7,10 @@
 # Table des matières
 
 
-1. [Origine et traitement des données sur la densité de population par arrondissement](2_traitement_arrondissement)
-2. [Première datavisualisation avec Line chart race (Flourish)](2_dataviz_arrondissement)
-3. [Deuxième datavisualisation avec une carte (Datawrapper)](2_dataviz_datawrapper)
-4. [Traitement des données de prix moyens par arrondissement](2_traitement_prix)
+1. [Origine et traitement des données sur la densité de population par arrondissement](#1-origine-et-traitement-des-données-sur-la-densité-depopulation-par-arrondissement)
+2. [Première datavisualisation avec Line chart race (Flourish)](#2-premiere-detavisualisation-avec-line-chart-race)
+3. [Deuxième datavisualisation avec une carte (Datawrapper)](#3-deuxieme-datavisualisation-avec-une-carte-datawrapper)
+4. [Traitement des données de prix moyens par arrondissement](4#)
 5. [Troisième datavisualisation avec Bar chart race (Flourish)](2_dataviz_prix)
 6. [Visualisation de Paris avec Wikidata Query Service](2_query_wikidata)
 [Conclusion] (#conclusion)
