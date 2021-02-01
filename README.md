@@ -56,6 +56,7 @@ Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'em
 ## 4. Traitement des données de prix moyens par arrondissement
 
 Les données que nous avons pu récupérer [ici] (https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). 
+
 Ces données représente une historique des prix au m2 standardisés des appartements anciens à Paris par arrondissement.Les données de la Base BIEN sont issues des actes authentiques signés dans les offices notariaux français. 
 Les modifications suivantes ont été réalisées: changement du format (pdf vers csv), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation.
 
