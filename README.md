@@ -6,12 +6,13 @@
 
 # Table des matières
 
-1. [Origine et traitement des données sur la densité de population par arrondissement](##traitement_arrondissement)
-2. [Première datavisualisation avec Line chart race (Flourish)](##dataviz_arrondissement)
-3. [Deuxième datavisualisation avec une carte (Datawrapper)](##dataviz_datawrapper)
-4. [Traitement des données de prix moyens par arrondissement](##traitement_prix)
-5. [Troisième datavisualisation avec Bar chart race (Flourish)](#dataviz_prix)
-6. [Visualisation de Paris avec Wikidata Query Service](##5query_wikidata)
+
+1. [Origine et traitement des données sur la densité de population par arrondissement](2_traitement_arrondissement)
+2. [Première datavisualisation avec Line chart race (Flourish)](2_dataviz_arrondissement)
+3. [Deuxième datavisualisation avec une carte (Datawrapper)](2_dataviz_datawrapper)
+4. [Traitement des données de prix moyens par arrondissement](2_traitement_prix)
+5. [Troisième datavisualisation avec Bar chart race (Flourish)](2_dataviz_prix)
+6. [Visualisation de Paris avec Wikidata Query Service](2_query_wikidata)
 [Conclusion] (#conclusion)
 
 ## 1. Origine et traitement des données sur la densité de population par arrondissement
@@ -159,6 +160,15 @@ LIMIT 1500
 
 <iframe style="width: 55vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%0A%20%20%3Farr%0A%20%20%28SAMPLE%20%28%3FtitleL%29%20AS%20%3Ftitle%29%0A%20%20%28SAMPLE%20%28%3Fimg%29%20AS%20%3Fimage%29%0A%20%20%28SAMPLE%20%28%3Fcoord%29%20AS%20%3Fcoordinates%29%20%7B%0A%0A%20%20%20%20%7B%0A%20%20%20%20%20%20SELECT%20DISTINCT%20%3Farr%20%7B%0A%20%20%20%20%20%20%20%20%3Farr%20%20wdt%3AP131%20wd%3AQ90%3B%7D%0A%20%20%20%20%7D%0A%20%20%20%20%23%20title%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20rdfs%3Alabel%20%3FtitleL%20filter%20%28lang%28%3FtitleL%29%20%3D%20%22fr%22%29%20%7D%0A%20%20%20%0A%20%20%20%20%23%20image%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP18%20%3Fimg%20%7D%0A%20%20%20%0A%20%20%20%20%23%20coordinates%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP625%20%3Fcoord%20%7D%0A%0A%7D%20GROUP%20BY%20%3Farr%0ALIMIT%201500" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
+
+Voir si c'est vrai: 
+
+De 1990 à 1997 : une longue phase de baisse. En 7 ans, les prix en euros constants ont baissé de 42 %, soit -7.4 % en rythme annuel. Le marché est déprimé avec un nombre de vente qui est bien inférieur à celui des périodes précédentes.
+De 1998 à 2008 : une longue hausse nationale (plus de 10 ans). Les volumes de vente sont très importants durant toute cette période. Les prix en euros constants augmentent de 141 %, soit +9.2 % en rythme annuel. Les notaires précisent que cette période a été boostée par un “contexte économique bien orienté” et surtout par un “crédit bancaire facile et bon marché”.
+De 2008 à 2009 : la crise de liquidités et la paralysie bancaire. Les prix diminuent mais pendant une courte période (-4 % en euros constants).
+De 2009 à 2011 : très forte envolée à Paris. En plus du fait que certains particuliers considèrent l’immobilier à Paris comme une valeur refuge, les banques centrales ont fait chuter les taux d’intérêt et le gouvernement a injecté des milliards d’euros pour relancer le marché immobilier.
+Le résultat donne une véritable explosion des prix à Paris sur cette période : +35 % en euros constants en deux ans seulement. Une hausse a un rythme similaire à l’emballement de 1984-1990. Seulement celle-ci n’aura été que de deux ans, contre six pour la précédente flambée similaire.
+De 2011 à 2013 : les notaires parlent de stagnation pour cette dernière phase. Les prix ne baissent que légèrement (-4 % en deux en euros constants, -2.3 % en rythme annuel). Ce sont surtout les volumes de vente qui s’ajustent.
 
 ## Conclution
 #### Gestion du projet:
