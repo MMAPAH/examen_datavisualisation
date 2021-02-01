@@ -101,6 +101,13 @@ Nous avons regrouper deux fichiers de données, celui de population et celui ave
 
 <iframe src='https://flo.uri.sh/visualisation/5155593/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5155593/?utm_source=embed&utm_campaign=visualisation/5155593' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
+Comme vous pouvez le voir, dans cette visualisation il manque plusieurs années. En effet, il est difficile de trouver cette informations concernant les années qui précédent 1995. Néanmoins, en analysant les données préséntés, nous pouvons voir une hausse importante entre 1999 et 2007. En vérifiant cette hyphothèse, nous avons trouvé qu'en effet, la période entre 1998 et 2008 correspond à une longue hausse nationale. Cette période est connu pour ces volumes importantes de vente. Les notaires précisent que cette période a été boostée par un “contexte économique bien orienté” et surtout par un “crédit bancaire facile et bon marché”.
+La période 2007 et 2012 englobe deux choses à la fois: entre 2008-2009 la crise de liquidités (les prix diminuent) et entre 2009 et 2011 tès forte envolée à Paris (explosion des prix). Dans la graphique nous pouvons observer que les prix ont augenté, mais pas si haut comme nous l'attendions.
+
+Dans la période entre 2012 et 2017, nous pouvons observé que les prix ont peu changés par rapport aux années précédentes.
+
+Après avoir réalisé ce graphique, nous pouvons conclure qu'il est difficile de voir le lien entre les prix des appartements et lee nombre de la population. Nous pouvons constater, qu'il s'agit plutot des changements généraux qui touchent toute la ville et pas un arrondissement en particuliers.
+
 ## 7. Visualisation de Paris avec Wikidata Query Service
 ```sparql
 #defaultView:ImageGrid
@@ -132,14 +139,6 @@ LIMIT 1500
 <iframe style="width: 55vw; height: 50vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AImageGrid%0ASELECT%0A%20%20%3Farr%0A%20%20%28SAMPLE%20%28%3FtitleL%29%20AS%20%3Ftitle%29%0A%20%20%28SAMPLE%20%28%3Fimg%29%20AS%20%3Fimage%29%0A%20%20%28SAMPLE%20%28%3Fcoord%29%20AS%20%3Fcoordinates%29%20%7B%0A%0A%20%20%20%20%7B%0A%20%20%20%20%20%20SELECT%20DISTINCT%20%3Farr%20%7B%0A%20%20%20%20%20%20%20%20%3Farr%20%20wdt%3AP131%20wd%3AQ90%3B%7D%0A%20%20%20%20%7D%0A%20%20%20%20%23%20title%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20rdfs%3Alabel%20%3FtitleL%20filter%20%28lang%28%3FtitleL%29%20%3D%20%22fr%22%29%20%7D%0A%20%20%20%0A%20%20%20%20%23%20image%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP18%20%3Fimg%20%7D%0A%20%20%20%0A%20%20%20%20%23%20coordinates%0A%20%20%20%20OPTIONAL%20%7B%20%3Farr%20wdt%3AP625%20%3Fcoord%20%7D%0A%0A%7D%20GROUP%20BY%20%3Farr%0ALIMIT%201500" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups" ></iframe>
 
 
-Voir si c'est vrai: 
-
-De 1990 à 1997 : une longue phase de baisse. En 7 ans, les prix en euros constants ont baissé de 42 %, soit -7.4 % en rythme annuel. Le marché est déprimé avec un nombre de vente qui est bien inférieur à celui des périodes précédentes.
-De 1998 à 2008 : une longue hausse nationale (plus de 10 ans). Les volumes de vente sont très importants durant toute cette période. Les prix en euros constants augmentent de 141 %, soit +9.2 % en rythme annuel. Les notaires précisent que cette période a été boostée par un “contexte économique bien orienté” et surtout par un “crédit bancaire facile et bon marché”.
-De 2008 à 2009 : la crise de liquidités et la paralysie bancaire. Les prix diminuent mais pendant une courte période (-4 % en euros constants).
-De 2009 à 2011 : très forte envolée à Paris. En plus du fait que certains particuliers considèrent l’immobilier à Paris comme une valeur refuge, les banques centrales ont fait chuter les taux d’intérêt et le gouvernement a injecté des milliards d’euros pour relancer le marché immobilier.
-Le résultat donne une véritable explosion des prix à Paris sur cette période : +35 % en euros constants en deux ans seulement. Une hausse a un rythme similaire à l’emballement de 1984-1990. Seulement celle-ci n’aura été que de deux ans, contre six pour la précédente flambée similaire.
-De 2011 à 2013 : les notaires parlent de stagnation pour cette dernière phase. Les prix ne baissent que légèrement (-4 % en deux en euros constants, -2.3 % en rythme annuel). Ce sont surtout les volumes de vente qui s’ajustent.
 
 ## Conclution
 #### Gestion du projet:
