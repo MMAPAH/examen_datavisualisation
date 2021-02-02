@@ -70,7 +70,7 @@ Un extrait des données brutes:
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Les modifications suivantes ont été réalisées: changement du format (pdf vers csv avec ilovepdf (https://www.ilovepdf.com/pdf_to_excel)), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations concernant la population (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation. Vous pouvez voir ci-dessus un extrait des données finales:
+Les modifications suivantes ont été réalisées: changement du format (pdf vers csv avec [ilovepdf](https://www.ilovepdf.com/pdf_to_excel)), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations concernant la population (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation. Vous pouvez voir ci-dessus un extrait des données finales:
 
 |     | Prix moyen 2017 | Prix moyen 2016 | Prix moyen 2015 | Prix moyen 2014 |
 |-----|-----------------|-----------------|-----------------|-----------------|
@@ -153,5 +153,5 @@ Néanmois, nous avons rencontrés certains problèmes pendant la réalisation de
 - l'bsence de données sur les prix de l'immobilier depuis 1968,
 - nouveau language à apprendre (Markdown) pour construite une page.
 
-Source de l'image: http://etudiant.aujourdhui.fr/etudiant/info/quartier-a-paris-ou-habiter-a-paris.html
+Source de l'image: [etudiant.aujourdhui.fr](http://etudiant.aujourdhui.fr/etudiant/info/quartier-a-paris-ou-habiter-a-paris.html)
 
