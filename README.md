@@ -70,7 +70,7 @@ Un extrait des données brutes:
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Les modifications suivantes ont été réalisées: changement du format (pdf vers csv avec [ilovepdf] (https://www.ilovepdf.com/pdf_to_excel)), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations concernant la population (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation. Vous pouvez voir ci-dessus un extrait des données finales:
+Les modifications suivantes ont été réalisées: changement du format (pdf vers csv avec ilovepdf (https://www.ilovepdf.com/pdf_to_excel)), calcul du prix moyen par année, suppression des années pour lequelles nos ne possèdons pas d'informations concernant la population (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation. Vous pouvez voir ci-dessus un extrait des données finales:
 
 |     | Prix moyen 2017 | Prix moyen 2016 | Prix moyen 2015 | Prix moyen 2014 |
 |-----|-----------------|-----------------|-----------------|-----------------|
@@ -95,7 +95,7 @@ Pour visualiser le deuxième jeux de données, nous avons décidé d'utiliser Ba
 <iframe src='https://flo.uri.sh/visualisation/5154066/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5154066/?utm_source=embed&utm_campaign=visualisation/5154066' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 ## 6. Quatrième datavisualisation des données croisées
-Nous avons regrouper deux fichiers de données, celui de population et celui avec les prix moyens au m2 pour voir si ces deux mouvements sont liés. En sélectionnant la population ,ainsi que le prix moyen qui vous intéresse, nous pouvons comparer ces deux valeurs. Par défaut, vous voyez toutes les années et tous prix. Pour faire une comparaison, il est néccessaire de cliquer sur __Sélectionner les données à comparer__, ensuite choisir l'année qui vous intéresse.
+Nous avons regrouper deux fichiers de données, celui de population et celui avec les prix moyens au m2 pour voir si ces deux mouvements sont liés. En sélectionnant la population ,ainsi que le prix moyen qui vous intéresse, nous pouvons comparer ces deux valeurs. Par défaut, vous voyez toutes les années et tous prix. Pour faire une comparaison, il est néccessaire de cliquer sur __"Sélectionner les données à comparer"__, ensuite choisir l'année qui vous intéresse.
 
 <iframe src='https://flo.uri.sh/visualisation/5155593/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5155593/?utm_source=embed&utm_campaign=visualisation/5155593' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
@@ -146,8 +146,9 @@ Néanmois, nous avons rencontrés certains problèmes pendant la réalisation de
 - les données brutes étaient mieux formatées sous xslx, que sous csv,
 - il est néccesaire d'adapter les données à chaque application pour les visualiser,
 - chaque application ayant ses limites: 
-  - graphique sur flourish ne permet pas d'illustrer la variation faible des données,
+  - premier graphique sur flourish ne permet pas d'illustrer la variation faible des données,
   - graphique sur Datawrapper ne permet pas de faire un storytelling pour voir la densité de population par année,
+  - deuxième graphique sur flourish 
   - requete de Wikidata Query Service ne permet pas spécifier/filtrer le type de photos à afficher (uniquement de l'exterier, pas de plan/schèma de Paris et assez récentes,
 - l'bsence de données sur les prix de l'immobilier depuis 1968,
 - nouveau language à apprendre (Markdown) pour construite une page.
