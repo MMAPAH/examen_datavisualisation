@@ -1,7 +1,7 @@
 # Projet de datavisualisation: Arrondissement de Paris
 
 ![arrondissement de paris](https://www.de-nicher.com/wp-content/uploads/sites/5/2019/06/carte-arrondissements-off.jpg)
-Source: http://etudiant.aujourdhui.fr/etudiant/info/quartier-a-paris-ou-habiter-a-paris.html
+
 
 
 # Table des matières
@@ -152,6 +152,5 @@ Néanmois, nous avons rencontrés certains problèmes pendant la réalisation de
 - l'bsence de données sur les prix de l'immobilier depuis 1968,
 - nouveau language à apprendre (Markdown) pour construite une page.
 
-
-
+Source de l'image: http://etudiant.aujourdhui.fr/etudiant/info/quartier-a-paris-ou-habiter-a-paris.html
 
