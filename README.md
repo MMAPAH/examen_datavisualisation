@@ -145,7 +145,10 @@ Ce projet nous a permis de vivre pleinement le processus qui s'appelle Data Wran
 Néanmois, nous avons rencontrés certains problèmes pendant la réalisation de ce projet:
 - les données brutes étaient mieux formatées sous xslx, que sous csv,
 - il est néccesaire d'adapter les données à chaque application pour les visualiser,
-- chaque application ayant ses limites (graphique sur flourish ne permet pas d'illustrer la variation faible des données, graphique sur Datawrapper ne permet pas de faire un storytelling pour voir la densité de population par année, requete de Wikidata Query Service ne permet pas spécifier/filtrer le type de photos à afficher (uniquement de l'exterier, pas de plan/schèma de Paris et assez récentes)),
+- chaque application ayant ses limites: 
+  - graphique sur flourish ne permet pas d'illustrer la variation faible des données,
+  - graphique sur Datawrapper ne permet pas de faire un storytelling pour voir la densité de population par année,
+  - requete de Wikidata Query Service ne permet pas spécifier/filtrer le type de photos à afficher (uniquement de l'exterier, pas de plan/schèma de Paris et assez récentes,
 - l'bsence de données sur les prix de l'immobilier depuis 1968,
 - nouveau language à apprendre (Markdown) pour construite une page.
 
