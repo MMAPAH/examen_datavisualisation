@@ -148,7 +148,7 @@ Néanmois, nous avons rencontrés certains problèmes pendant la réalisation de
 - chaque application ayant ses limites: 
   - premier graphique sur flourish ne permet pas d'illustrer la variation faible des données,
   - graphique sur Datawrapper ne permet pas de faire un storytelling pour voir la densité de population par année,
-  - deuxième graphique sur flourish 
+  - deuxième graphique sur flourish n'était pas évident à construire, sachant qu'il fallait prepredre plusieurs paramètrer en comple (année, prix, population, arrondissement),
   - requete de Wikidata Query Service ne permet pas spécifier/filtrer le type de photos à afficher (uniquement de l'exterier, pas de plan/schèma de Paris et assez récentes,
 - l'bsence de données sur les prix de l'immobilier depuis 1968,
 - nouveau language à apprendre (Markdown) pour construite une page.
