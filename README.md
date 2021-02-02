@@ -17,7 +17,7 @@
 
 ## 1. Origine et traitement des données sur la densité de population par arrondissement
 
-Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie des données qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définies, nous n'avons pas eu à réaliser de travaux préparatoires, ni a utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution de la population dans les arrondissements de Paris entre 1968 et 2015.
+Les données de l'évolution démographique au fil des années ont été trouvées sur [INSEE](https://www.insee.fr/fr/statistiques/4515941#consulter). Nous avons décidé de garder uniquement la partie des données qui nous intéresse: arrondissement, année, population. Les données d'origine étant bien définies, nous n'avons pas eu à réaliser de travaux préparatoires, ni à utiliser d'outils particuliers. Sur la base de ces trois informations, nous avons décidé de visualiser l'évolution de la population dans les arrondissements de Paris entre 1968 et 2015.
 
 ### Extrait des données finales:
 
@@ -40,12 +40,12 @@ Pour créer le visuel des données récoltées, nous avons décidé d'utiliser l
 
 <iframe src='https://flo.uri.sh/visualisation/4874798/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/4874798/?utm_source=embed&utm_campaign=visualisation/4874798' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-Comme vous pouvez le voir certaines arrondissements n'ont pas évolué au fil des années et d'autres ont subi des changements importants. Après avoir revérifier les données et avoir mentionner que la population change au fil des années, nous nous sommes rendus compte qu'il s'agit d'un graphique qui ne permet pas d'illustrer la faible variation des données. 
+Comme vous pouvez le voir, certaines arrondissements n'ont pas évolué au fil des années et d'autres ont subi des changements importants. Après avoir revérifié les données et avoir mentionné que la population change au fil des années, nous nous sommes rendus compte qu'il s'agit d'un graphique qui ne permet pas d'illustrer la faible variation des données. 
 
 
 ## 3. Deuxième datavisualisation avec une Carte (Datawrapper)
 
-Ensuite, nous avons décidé d'illustrer la densité de population avec une carte pour voir les arrondissement les plus et les moins peuplés . Cette datavisualisation a été réalisé en choisissant une carte des arrondissements de Paris (peu d'outils l'ont). Puis, nos données ont été légérement modifiées (la première colonne doit correspondre soit au "code", "code INSEE" ou "name"), puis importées dans l'outil Datawrapper. Il faut mentionner, nous n'avons pas pu animer nos jeux de données pour voir l'évolution au fil des années, car Datawrapper ne le permet pas. Donc, une chose importante a été rajoutée pour voir l'évolution d'habitants par arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants), etc. 
+Ensuite, nous avons décidé d'illustrer la densité de population avec une carte pour voir les arrondissements les plus et les moins peuplés . Cette datavisualisation a été réalisé en choisissant une carte des arrondissements de Paris (peu d'outils l'ont). Puis, nos données ont été légèrement modifiées (la première colonne doit correspondre soit au "code", "code INSEE" ou "name"), puis importées dans l'outil Datawrapper. Il faut mentionner, nous n'avons pas pu animer nos jeux de données pour voir l'évolution au fil des années, car Datawrapper ne le permet pas. Donc, une chose importante a été rajoutée pour voir l'évolution d'habitants par arrondissement (Tooltips: {{ code }} arrondissement, en 1968: {{ _1968 }} habitants; en 1975: {{ _1975 }} habitants), etc. 
 
 <iframe title="" aria-label="Carte" id="datawrapper-chart-Z2G3Y" src="https://datawrapper.dwcdn.net/Z2G3Y/1/" scrolling="no" frameborder="0" style="border: none;" width="690" height="411"></iframe>
 
@@ -53,7 +53,7 @@ Grace à la deuxième visualisation cartographique, nous pouvons visualiser l'em
 
 ## 4. Croisement des données
 
-Puis, nous avons essayé d'expliquer l'évolution de la population dans les arrondissements à travers les prix de l'immobilier. Nous avons récupéré un deuxième jeux de données [ici](https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). Ces données représente un historique des prix au m2 standardisés des appartements anciens à Paris par arrondissement. Les données sont issues des actes authentiques signés dans les offices notariaux français. 
+Puis, nous avons essayé d'expliquer l'évolution de la population dans les arrondissements à travers les prix de l'immobilier. Nous avons récupéré un deuxième jeu de données [ici](https://basebien.com/PNSPublic/DocPublic/HistoriquedesprixaumappartementsanciensParispararrdt.pdf). Ces données représentent un historique des prix au m2 standardisés des appartements anciens à Paris par arrondissement. Les données sont issues des actes authentiques signés dans les offices notariaux français. 
 
 Un extrait des données brutes:
 
@@ -69,7 +69,7 @@ Un extrait des données brutes:
 
 > Tableau généré avec [Tables Generator](https://www.tablesgenerator.com)
 
-Les modifications suivantes ont été réalisées: changement du format (pdf vers csv avec [ilovepdf](https://www.ilovepdf.com/pdf_to_excel)), calcul du prix moyen par année, suppression des années pour lequelles nous ne possédions pas les informations concernant la population (2020-2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation. Vous pouvez voir ci-dessus un extrait des données finales:
+Les modifications suivantes ont été réalisées: changement du format (pdf vers csv avec [ilovepdf](https://www.ilovepdf.com/pdf_to_excel)), calcul du prix moyen par année, suppression des années pour lesquelles nous ne possédions pas les informations concernant la population (2020 - 2018), positionnement des lignes et des colonnes modifiés pour pouvoir faire une datavisualisation. Vous pouvez voir ci-dessus un extrait des données finales:
 
 |     | Prix moyen 2017 | Prix moyen 2016 | Prix moyen 2015 | Prix moyen 2014 |
 |-----|-----------------|-----------------|-----------------|-----------------|
@@ -89,22 +89,22 @@ Les modifications suivantes ont été réalisées: changement du format (pdf ver
 
 ## 5. Troisième datavisualisation avec Bar Chart Race (Flourish)
 
-Pour visualiser le deuxième jeux de données, nous avons décidé d'utiliser Bar Chart Race sur Flourish, ce que nous a permit avoir la visualisation dynamique des prix moyens au fil des années (1995 - 2017).
+Pour visualiser le deuxième jeu de données, nous avons décidé d'utiliser Bar Chart Race sur Flourish, ce que nous a permit d'avoir la visualisation dynamique des prix moyens au fil des années (1995 - 2017).
 
 <iframe src='https://flo.uri.sh/visualisation/5154066/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5154066/?utm_source=embed&utm_campaign=visualisation/5154066' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
 ## 6. Quatrième datavisualisation des données croisées
-Nous avons regrouper deux fichiers de données, celui de la population et celui avec les prix moyens au m2 pour voir si ces deux mouvements sont liés. En sélectionnant la population ,ainsi que le prix moyen qui vous intéresse, et pouvez comparer ces deux valeurs. Par défaut, vous voyez toutes les années et tous prix. Pour faire une comparaison, il est néccessaire de cliquer sur __"Sélectionner les données à comparer"__, ensuite choisir l'année qui vous intéresse.
+Nous avons regroupé deux fichiers de données, celui de la population et celui avec les prix moyens au m2 pour voir si ces deux mouvements sont liés. En sélectionnant la population, ainsi que le prix moyen qui vous intéresse, vous pouvez comparer ces deux valeurs. Par défaut, vous voyez toutes les années et tous prix. Pour faire une comparaison, il est nécessaire de cliquer sur __"Sélectionner les données à comparer"__, ensuite choisir l'année qui vous intéresse.
 
 <iframe src='https://flo.uri.sh/visualisation/5155593/embed' title='Interactive or visual content' frameborder='0' scrolling='no' style='width:100%;height:600px;'></iframe><div style='width:100%!;margin-top:4px!important;text-align:right!important;'><a class='flourish-credit' href='https://public.flourish.studio/visualisation/5155593/?utm_source=embed&utm_campaign=visualisation/5155593' target='_top' style='text-decoration:none!important'><img alt='Made with Flourish' src='https://public.flourish.studio/resources/made_with_flourish.svg' style='width:105px!important;height:16px!important;border:none!important;margin:0!important;'> </a></div>
 
-Comme vous pouvez le constater, dans cette visualisation il manque plusieurs années. En effet, il est difficile de trouver l'information concernant les prix au m2 par arrondissement avant 1995. Néanmoins, en analysant les données présentées, nous pouvons supposer qu'il y a eu une hausse importante entre 1999 et 2007. En vérifiant cette hyphothèse, nous avons trouvé qu'en effet, la période entre 1998 et 2008 correspond à une longue hausse nationale et que cette période est connue pour ces volumes importantes de vente. Les notaires précisent que cette période a été boostée par un “contexte économique bien orienté” et surtout par un “crédit bancaire facile et bon marché”. La période 2007 et 2012 englobe deux choses à la fois: la crise de liquidités entre 2008-2009 (les prix diminuent) et une très forte envolée à Paris entre 2009 et 2011 (explosion des prix). Dans le graphique nous pouvons observer que les prix ont augmenté, mais pas aussi fortement que nous pouvions l'anticiper. De 2012 et 2017, nous pouvons observer que les prix ont peu varié par rapport aux années précédentes.
+Comme vous pouvez le constater, dans cette visualisation, il manque plusieurs années. En effet, il est difficile de trouver l'information concernant les prix au m2 par arrondissement avant 1995. Néanmoins, en analysant les données présentées, nous pouvons supposer qu'il y a eu une hausse importante entre 1999 et 2007. En vérifiant cette hypothèse, nous avons trouvé qu'en effet, la période entre 1998 et 2008 correspond à une longue hausse nationale et que cette période est connue pour ces volumes importants de vente. Les notaires précisent que cette période a été boostée par un “contexte économique bien orienté” et surtout par un “crédit bancaire facile et bon marché”. La période 2007 et 2012 englobe deux choses à la fois: la crise de liquidités entre 2008-2009 (les prix diminuent) et une très forte envolée à Paris entre 2009 et 2011 (explosion des prix). Dans le graphique, nous pouvons observer que les prix ont augmenté, mais pas aussi fortement que nous pouvions l'anticiper. De 2012 et 2017, nous pouvons observer que les prix ont peu varié par rapport aux années précédentes.
 
-Après avoir réalisé ce graphique, nous pouvons conclure qu'il est difficile de voir une corrélation entre les prix des appartements et le nombre d'habitants. Nous pouvons constater, qu'il s'agit plutot de changements généraux ou sociétaux qui touchent toute la ville et pas un arrondissement en particulier.
+Après avoir réalisé ce graphique, nous pouvons conclure qu'il est difficile de voir une corrélation entre les prix des appartements et le nombre d'habitants. Nous pouvons constater, qu'il s'agit plutôt  de changements généraux ou sociétaux qui touchent toute la ville et pas un arrondissement en particulier.
 
 ## 7. Visualisation de Paris avec Wikidata Query Service
 
-Dans cette partie, grace à une requete de Wikidata, nous avons pu afficher les rues de Paris pour le coté esthétique. Si il y a des images qui vous intéresse, vous pouvez voir le titre de lieu, ainsi que ses coordonnées géographiques.
+Dans cette partie, grâce à une requête de Wikidata, nous avons pu afficher les rues de Paris pour le coté esthétique. S'il y a des images qui vous intéresse, vous pouvez voir le titre de lieu, ainsi que ses coordonnées géographiques.
 
 ```sparql
 #defaultView:ImageGrid
@@ -137,20 +137,20 @@ LIMIT 1500
 
 ## Conclution
 
-Le sujet en question présente pour moi un intéret particulier. En effet, il était intéressant de se pencher sur l'évolution de population de Paris et d'essayer de l'expliquer à travers les prix de l'immobilier. Grace aux plusieurs types de datavisualisations, nous avons pu mettre en avant differentes problématiques. 
+Le sujet en question présente pour moi un intérêt particulier. En effet, il était intéressant de se pencher sur l'évolution de population de Paris et d'essayer de l'expliquer à travers les prix de l'immobilier. Grace aux plusieurs types de datavisualisations, nous avons pu mettre en avant différentes problématiques. 
 
-Ce projet nous a permis de vivre pleinement le processus qui s'appelle Data Wrangling, en partant des données brutes, nous avons réussi à les adapter à nos besoins, en les modifiant et nettoyant, ce qui, par la suite, nous a permis de les visualiser et publier sur cette page github.
+Ce projet nous a permis de vivre pleinement le processus qui s'appelle Datawrangling, en partant des données brutes, nous avons réussi à les adapter à nos besoins, en les modifiant et nettoyant, ce qui, par la suite, nous a permis de les visualiser et publier sur cette page github.
 
 Néanmoins, nous avons rencontré certains problèmes pendant la réalisation de ce projet:
 - les données brutes étaient mieux formatées sous xslx, que sous csv
 - il est néccesaire d'adapter les données à chaque application pour les visualiser
 - chaque application ayant ses limites: 
-  - le premier graphique sur flourish ne permet pas d'illustrer la variation faible des données
+  - le premier graphique sur Flourish ne permet pas d'illustrer la variation faible des données
   - le graphique sur Datawrapper ne permet pas de faire un storytelling pour voir la densité de population par année
-  - le deuxième graphique sur flourish n'était pas évident à construire, sachant qu'il fallait reprendre plusieurs paramètres en compte (année, prix, population, arrondissement)
-  - la requete de Wikidata Query Service ne permet pas de spécifier/filtrer le type de photos à afficher (uniquement de l'exterieur, pas de plan/schéma de Paris et assez récentes
+  - le deuxième graphique sur Flourish n'était pas évident à construire, sachant qu'il fallait reprendre plusieurs paramètres en compte (année, prix, population, arrondissement)
+  - la requête de Wikidata Query Service ne permet pas de spécifier/filtrer le type de photos à afficher (uniquement de l'extérieur, pas de plan/schéma de Paris et assez récentes
 - l'absence de données sur les prix de l'immobilier depuis 1968
-- le nouveau language à apprendre (Markdown) pour construite une page
+- le nouveau langage à apprendre (Markdown) pour construite une page
 
 Source de l'image: [etudiant.aujourdhui.fr](http://etudiant.aujourdhui.fr/etudiant/info/quartier-a-paris-ou-habiter-a-paris.html)
 
